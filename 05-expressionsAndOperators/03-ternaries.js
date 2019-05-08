@@ -32,3 +32,7 @@ let x = 6;
 let x = 30;
 
 (x < 18) ? console.log('you can\'t do anything') : (x < 21) ? console.log('Yay! you can drink') : console.log('Yay! you can rent a car')
+
+let yep = -8
+
+(yep < 0 && yep -10) ? console.log("worked") : (yep > 0) ? console.log('worked') : console.log('didn\'t work')
