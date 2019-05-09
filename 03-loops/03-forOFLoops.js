@@ -12,3 +12,15 @@ let catArray = ['tabby', 'british shorthair', 'burmese', 'maine coon', 'rag doll
 for (cat of catArray){
     console.log(cat)
 }
+
+function foo () {
+    return bar();
+    function bar() {
+      return "Poppin' bottles";
+    }
+  }
+  console.log(foo());
+  
+  function whatDoesItDo(val) {
+    return val ? 1 : 2;
+  }; 

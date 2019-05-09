@@ -11,3 +11,10 @@ function pet(animal) {
 
 pet('cat');
 pet('monkey')
+
+function fullName(firstname, lastname){
+    var fullName = firstname + " " + lastname;
+    console.log(`Hello, my name is ${fullName}.`);
+}
+
+fullName("Charles", "Gee");
